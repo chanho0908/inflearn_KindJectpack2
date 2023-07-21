@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app/chap1" />
             <option value="$PROJECT_DIR$/app/chap2" />
             <option value="$PROJECT_DIR$/app/chap3" />
+            <option value="$PROJECT_DIR$/app/chap4" />
+            <option value="$PROJECT_DIR$/app/chap4_2" />
           </set>
         </option>
       </GradleProjectSettings>
