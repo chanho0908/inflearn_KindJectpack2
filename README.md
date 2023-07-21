@@ -18,4 +18,14 @@
 ### Chap4. Room Technique <br>
 
     ### Room Miagration <br>
-           - fallbackToDestructiveMigration() : DB 기존 데이터가 날라감
+           - fallbackToDestructiveMigration() : DB 기존 데이터가 날라감<br>
+           - autoMigration() 
+           
+        
+        kapt {
+            arguments {
+                arg("room.schemaLocation", "$projectDir/schemas")
+            }
+        }
+           
+        
