@@ -1,14 +1,14 @@
 # inflearn_KindJectpack2
 
-Chap1. Databinding (TwoWay binding/Binding Adapter)
-       - TwoWay binding 
-       - TwoWay binding + Binding Adapter
-       
-Chap2. Room + Coroutine Flow
-       - ListAdapter + DiffUtil
-       - Room & Flow
-       - Room & Flow & ListAdapter
-       - Room & Flow & ListAdapter CRUD
-
-Chap3. RoomDatabase CRUD base
+Chap1. Databinding (TwoWay binding/Binding Adapter)<br>
+       - TwoWay binding <br>
+       - TwoWay binding + Binding Adapter<br>
+<br>
+Chap2. Room + Coroutine Flow<br>
+       - ListAdapter + DiffUtil<br>
+       - Room & Flow<br>
+       - Room & Flow & ListAdapter<br>
+       - Room & Flow & ListAdapter CRUD<br>
+<br>
+Chap3. RoomDatabase CRUD base<br>
        
