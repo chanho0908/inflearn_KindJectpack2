@@ -16,3 +16,4 @@ rootProject.name = "inflearn_KindJectpack2"
 include ':app'
 include ':app:chap1'
 include ':app:chap2'
+include ':app:chap3'
