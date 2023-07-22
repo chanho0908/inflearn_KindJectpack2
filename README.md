@@ -34,6 +34,13 @@
 ### Chap5. Data Saving
     - SharedPreference<br>
     - EncryptedSharedPreference<br>
+
+           
+implementation 'androidx.security:security-crypto:1.0.0'
+    
+    <br>
+    
     - DataStore<br>
+
            
         
