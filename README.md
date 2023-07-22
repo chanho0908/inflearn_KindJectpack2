@@ -33,6 +33,7 @@
 
 ### Chap5. Data Saving
     - SharedPreference<br>
+    - EncryptedSharedPreference<br>
     - DataStore<br>
            
         
