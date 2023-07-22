@@ -36,9 +36,7 @@
     - EncryptedSharedPreference<br>
 
            
-implementation 'androidx.security:security-crypto:1.0.0'
-    
-    <br>
+           implementation 'androidx.security:security-crypto:1.0.0'
     
     - DataStore<br>
 
