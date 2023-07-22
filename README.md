@@ -33,7 +33,7 @@
 
 ### Chap5. Data Saving
     - SharedPreference<br>
-    - EncryptedSharedPreference<br>
+    - EncryptedSharedPreference: 암호화된 SharedPreference<br>
 
            
            implementation 'androidx.security:security-crypto:1.0.0'
