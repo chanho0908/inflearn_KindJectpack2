@@ -11,7 +11,7 @@
     - Room & Flow & ListAdapter<br>
     - Room & Flow & ListAdapter CRUD<br>
 <br>
-### Chap3. RoomDatabase CRUD base<br>
+### Chap3. RoomDatabase CRUD basic<br>
 
 <br>
 
@@ -29,5 +29,10 @@
         }
 <br>
           - TypeConverter
+<br>
+
+### Chap5. Data Saving
+    - SharedPreference<br>
+    - DataStore<br>
            
         
