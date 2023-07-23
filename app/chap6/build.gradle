@@ -1,15 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
 }
 
 android {
-    namespace 'com.myproject.chap5'
+    namespace 'com.myproject.chap6'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.myproject.chap5"
+        applicationId "com.myproject.chap6"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -53,7 +52,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
 
     // Coroutine
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
 
     // viewModelScope
@@ -66,4 +65,12 @@ dependencies {
 
     // DateStore
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // paging
+    def paging_version = "3.1.1"
+    implementation "androidx.paging:paging-runtime:$paging_version"
+
+    // LifecycleScope
+    def lifecycle_version = "2.5.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 }
