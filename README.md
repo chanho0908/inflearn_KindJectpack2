@@ -39,7 +39,7 @@
     
     - DataStore<br>
 
-### Chap6. Paging
+### Chap6 ~ 9. Paging
     
 https://developer.android.com/topic/libraries/architecture/paging/v3-overview?hl=ko<br>
 ```
