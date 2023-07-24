@@ -1,5 +1,6 @@
 package com.myproject.chap8
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
@@ -27,16 +28,18 @@ class MainAdapter: PagingDataAdapter<Data, MainAdapter.ViewHolder>(callback) {
         val text = binding.textArea
 
         fun bind(item: Data){
-            text.text = item._id
+            text.text = "아이디 : $item._id"
             img.load(item.airline[0].logo)
         }
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        getItem(position)?.let { holder.bind(it) }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        TODO("Not yet implemented")
+        val binding = RvItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+
+        return ViewHolder(binding)
     }
 }

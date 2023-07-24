@@ -12,4 +12,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
+    <TextView
+        android:id="@+id/loadingNext"
+        android:text="아래로 로딩중"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/loadingPrev"
+        android:text="위로 로딩중"
+        android:textSize="50dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
