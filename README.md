@@ -1,5 +1,4 @@
 # 인프런 친절한 JETPACK 개론
-출처 : [ https://www.inflearn.com/course/친절한-jetpack-2 ]
 
 ### Chap1. Databinding (TwoWay binding/Binding Adapter)<br>
     - TwoWay binding <br>
